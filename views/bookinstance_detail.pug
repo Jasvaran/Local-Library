@@ -21,3 +21,8 @@ block content
         p #[strong Due back:] #{bookInstanceDetails.due_back_formatted}
         
     
+    hr
+    p 
+        a(href=bookInstanceDetails.url+'/delete') Delete
+    p
+        a(href=bookInstanceDetails.url+'/update') Update

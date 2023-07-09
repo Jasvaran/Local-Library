@@ -30,4 +30,12 @@ block content
             p #[strong Id:]
                 a(href=val.url) #{val._id}
         else 
-            p There are no copies of this bookin the Library. 
+            p There are no copies of this bookin the Library.
+
+
+
+    hr
+    p 
+        a(href=book.url+'/delete') Delete
+    p 
+        a(href=book.url+'/update') Update Book
